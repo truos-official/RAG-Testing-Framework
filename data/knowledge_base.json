@@ -1,0 +1,29 @@
+{
+  "documents": [
+    {
+      "doc_id": "POL-001",
+      "title": "Return Policy",
+      "content": "We accept returns within 30 days of purchase with original receipt. Refunds are processed within 5-7 business days to the original payment method. Items must be unused and in original packaging."
+    },
+    {
+      "doc_id": "POL-002",
+      "title": "Shipping Policy",
+      "content": "Free standard shipping on orders over $50. Standard delivery takes 3-5 business days. Express shipping available for $15 with 1-2 day delivery."
+    },
+    {
+      "doc_id": "POL-003",
+      "title": "Warranty Policy",
+      "content": "All products include a 12-month manufacturer warranty covering defects in materials and workmanship. Warranty does not cover accidental damage, misuse, or normal wear and tear."
+    },
+    {
+      "doc_id": "HR-001",
+      "title": "Remote Work Policy",
+      "content": "Employees may work remotely up to 3 days per week with manager approval. Core hours are 10am-3pm in employee's local timezone. VPN connection required for accessing company systems."
+    },
+    {
+      "doc_id": "SEC-001",
+      "title": "Data Security Policy",
+      "content": "All customer data must be encrypted at rest and in transit. Access to production databases requires MFA and is logged. PII must never be stored in development environments."
+    }
+  ]
+}
