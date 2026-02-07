@@ -1,13 +1,21 @@
 from flask import Flask, request, jsonify
 import json
-import os
 from openai import OpenAI
 from dotenv import load_dotenv
+import os
 
+# Load .env file (works locally, harmless in Docker)
 load_dotenv()
 
+# Get API key (works both locally and in Docker)
+api_key = os.getenv("OPENAI_API_KEY") or os.environ.get("OPENAI_API_KEY")
+
+if not api_key:
+    raise ValueError("OPENAI_API_KEY not found!")
+
+client = OpenAI(api_key=api_key)
+
 app=Flask(__name__)
-client=OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 knowledge_base = {
     "documents": [
