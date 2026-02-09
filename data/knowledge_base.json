@@ -3,27 +3,32 @@
     {
       "doc_id": "POL-001",
       "title": "Return Policy",
-      "content": "We accept returns within 30 days of purchase with original receipt. Refunds are processed within 5-7 business days to the original payment method. Items must be unused and in original packaging."
+      "content": "We accept returns within 30 days of purchase with original receipt. Refunds are processed within 5-7 business days to the original payment method. Items must be unused and in original packaging.",
+      "category": "policies"
     },
     {
       "doc_id": "POL-002",
       "title": "Shipping Policy",
-      "content": "Free standard shipping on orders over $50. Standard delivery takes 3-5 business days. Express shipping available for $15 with 1-2 day delivery."
+      "content": "Free standard shipping on orders over $50. Standard delivery takes 3-5 business days. Express shipping available for $15 with 1-2 day delivery. International shipping rates vary by country.",
+      "category": "policies"
     },
     {
       "doc_id": "POL-003",
       "title": "Warranty Policy",
-      "content": "All products include a 12-month manufacturer warranty covering defects in materials and workmanship. Warranty does not cover accidental damage, misuse, or normal wear and tear."
+      "content": "All products include a 12-month manufacturer warranty covering defects in materials and workmanship. Warranty does not cover accidental damage, misuse, or normal wear and tear. Extended warranties available for purchase.",
+      "category": "policies"
     },
     {
-      "doc_id": "HR-001",
-      "title": "Remote Work Policy",
-      "content": "Employees may work remotely up to 3 days per week with manager approval. Core hours are 10am-3pm in employee's local timezone. VPN connection required for accessing company systems."
+      "doc_id": "FAQ-001",
+      "title": "How do I track my order?",
+      "content": "You can track your order using the tracking number sent to your email. Simply click the tracking link or visit our website and enter your order number in the tracking section. Updates are provided in real-time.",
+      "category": "faq"
     },
     {
-      "doc_id": "SEC-001",
-      "title": "Data Security Policy",
-      "content": "All customer data must be encrypted at rest and in transit. Access to production databases requires MFA and is logged. PII must never be stored in development environments."
+      "doc_id": "FAQ-002",
+      "title": "What payment methods do you accept?",
+      "content": "We accept all major credit cards (Visa, MasterCard, American Express, Discover), PayPal, Apple Pay, and Google Pay. Payment is processed securely through our encrypted checkout system.",
+      "category": "faq"
     }
   ]
 }
